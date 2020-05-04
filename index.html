@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>EleMemo</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="app.css" />
+</head>
+
+<body>
+    <div id="header">
+        <input id="input-memo" type="text" placeholder="메모">
+        <button onclick="addMemo()">등록하기</button>
+    </div>
+    <br>
+    <div id="main-area">
+        <template id="card-template">
+            <div class="card">
+                <div class="container">
+                    <h4><b><p class="date">2020-01-01</p></b></h4>
+                    <p class="contents">Elememo</p>
+                </div>
+            </div>
+        </template>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

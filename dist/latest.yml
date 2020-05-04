@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: HelloElectron-Setup-1.0.0.exe
+    sha512: K2quOE+jNOAr3oNj4NedSVlTWg+CNFFJ7O+gRIv6DC++NosVBlduPqV7pC7Q3l3j0Wu6XbuUuNT99LYTcaxqOg==
+    size: 48144238
+path: HelloElectron-Setup-1.0.0.exe
+sha512: K2quOE+jNOAr3oNj4NedSVlTWg+CNFFJ7O+gRIv6DC++NosVBlduPqV7pC7Q3l3j0Wu6XbuUuNT99LYTcaxqOg==
+releaseDate: '2020-05-02T19:08:19.791Z'
