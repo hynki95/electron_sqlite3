@@ -26,6 +26,7 @@
     "productName": "HelloElectron",
     "appId": "com.electron.hello",
     "asar": true,
+    "extraResources": ["database.db"],
     "protocols": {
       "name": "helloElectron",
       "schemes": [

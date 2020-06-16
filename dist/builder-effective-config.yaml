@@ -5,6 +5,9 @@ directories:
 productName: HelloElectron
 appId: com.electron.hello
 asar: true
+extraResources:
+  - filter:
+      - database.db
 protocols:
   name: helloElectron
   schemes:
